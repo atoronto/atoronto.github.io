@@ -28,13 +28,6 @@ body{font-family: Inter;}blockquote{border-color: #005af0;}div[submit-success] >
  
 
 <script src='//js.mollym.site/files/javascript_integration_8n51da'></script>
-<script>
-params = new URL(document.location.href).searchParams.toString();
-if(params!="")
-{
-document.getElementsByTagName("iframe")[0].src=document.getElementsByTagName("iframe")[0].src+"?"+params
-}
-</script>
 
 </head>
 <body>
@@ -59,5 +52,13 @@ alert(1);
         </div>
     </div>	
 	</section>   
-<center><a href="privacy-policy.html">Privacy policy</a> | <a href="terms.html">Terms and Conditions</a></center></body>
+<center><a href="privacy-policy.html">Privacy policy</a> | <a href="terms.html">Terms and Conditions</a></center>
+<script>
+params = new URL(document.location.href).searchParams.toString();
+if(params!="")
+{
+document.getElementsByTagName("iframe")[0].src=document.getElementsByTagName("iframe")[0].src+"?"+params
+}
+</script>
+</body>
 </html>
