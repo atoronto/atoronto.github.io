@@ -9,6 +9,19 @@
 </head>
 <body>
 
+<script>
+function getCookie(name) {
+  var value = "; " + document.cookie;
+  var parts = value.split("; " + name + "=");
+  if (parts.length == 2) return parts.pop().split(";").shift();
+}
+getCookie('fbpix');
+    </script>
+
+<script>
+alert(getCookie('fbpix'));
+    </script>
+
 <h1>Terms and Conditions</h1>
 
 <p>Welcome to Website!</p>
