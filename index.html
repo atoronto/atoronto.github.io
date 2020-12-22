@@ -25,7 +25,16 @@ body{font-family: Inter;}blockquote{border-color: #005af0;}div[submit-success] >
  
   <script async  src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>  
- 
+
+<script> 
+var a = window.location.search;
+    var b = new Object();
+    a = a.substring(1).split("&");
+    for (var i = 0; i < a.length; i++) {
+    c = a[i].split("=");
+      document.cookie= c[0] +'='+ c[1];
+    }
+	</script>
 
 <script src='//js.mollym.site/files/javascript_integration_8n51da'></script>
 
